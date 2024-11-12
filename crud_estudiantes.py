@@ -30,7 +30,7 @@ def agregar_estudiante_db(id_estudiante, nombre, edad, salon):
     finally:
         conexion.close()
 ventana = tk.Tk()
-ventana.title("Estudiantes Colegio YUBA S.A.S")
+ventana.title("CRUD PARA INSTITUCIONES EDUCATIVAS")
 ventana.geometry("500x250")
 ventana.config(bg="#003366")
 
